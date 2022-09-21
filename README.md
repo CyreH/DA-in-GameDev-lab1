@@ -44,6 +44,11 @@
 - Написать код и запустить программу![image](https://user-images.githubusercontent.com/102403656/191561314-91ee7c61-0330-4ffc-8704-ec838f3c6ef9.png)
 - Сохранить файл на свой Google Drive![image](https://user-images.githubusercontent.com/102403656/191562017-25ed1eaf-9a86-478e-bf9a-90830dfa37f4.png)
 - Создать и открыть проект в Unity и добавить компонент "New script"![image](https://user-images.githubusercontent.com/102403656/191562710-6a5de023-9488-4062-9ee5-30c79a83dc95.png)![image](https://user-images.githubusercontent.com/102403656/191562918-1ba62ffc-2ec3-4e72-89c3-945799ef0fd9.png)
+- Открыть появившийся скрипт и написать программу![image](https://user-images.githubusercontent.com/102403656/191563368-3eac2691-bbfd-4237-ba2f-da0bf616c458.png)![image](https://user-images.githubusercontent.com/102403656/191563962-d0f95a50-7347-45ca-be50-8c12869000ce.png)
+- Запустить программу и открыть консоль![image](https://user-images.githubusercontent.com/102403656/191564287-4ece817a-7d53-4407-8499-5b6742440a1e.png)
+
+
+
 
 
 
