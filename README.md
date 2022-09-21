@@ -42,6 +42,10 @@
 Ход работы:
 - Создать новый файл в google.colab![image](https://user-images.githubusercontent.com/102403656/191560787-df8a0387-ad0f-4a50-8a9c-9f2941ec1dbe.png)
 - Написать код и запустить программу![image](https://user-images.githubusercontent.com/102403656/191561314-91ee7c61-0330-4ffc-8704-ec838f3c6ef9.png)
+- Сохранить файл на свой Google Drive![image](https://user-images.githubusercontent.com/102403656/191562017-25ed1eaf-9a86-478e-bf9a-90830dfa37f4.png)
+- Создать и открыть проект в Unity и добавить компонент "New script"![image](https://user-images.githubusercontent.com/102403656/191562710-6a5de023-9488-4062-9ee5-30c79a83dc95.png)![image](https://user-images.githubusercontent.com/102403656/191562918-1ba62ffc-2ec3-4e72-89c3-945799ef0fd9.png)
+
+
 
 ### Пошагово выполнить каждый пункт раздела "ход работы" с описанием и примерами реализации задач
 Ход работы:
