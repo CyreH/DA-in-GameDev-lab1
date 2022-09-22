@@ -122,6 +122,75 @@ plt.plot(x, prediction)
 
 2. На второй итерации отображаются значения параметров, значения потерь и эффекты визуальзации после итерации
 
+```py
+
+a, b = iterate(a, b, x, y, 2)
+prediction = model(a, b, x)
+loss = loss_function(a, b, x, y)
+print(a, b, loss)
+plt.scatter(x, y)
+plt.plot(x, prediction)
+
+```
+![image](https://user-images.githubusercontent.com/102403656/191746524-947ca9f5-089b-42a1-8afd-46de2359ac59.png)
+
+3. Третья итерация показывает значение параметров, значения потерть и визуализацию после итерации
+
+```py
+
+a, b = iterate(a, b, x, y, 3)
+prediction = model(a, b, x)
+loss = loss_function(a, b, x, y)
+print(a, b, loss)
+plt.scatter(x, y)
+plt.plot(x, prediction)
+
+```
+![image](https://user-images.githubusercontent.com/102403656/191747123-3f8838ce-f330-4ec9-be0e-21c9d160890b.png)
+
+4. На четвертой итерации отображаются значения параметров, значения потерь и эффектов визуализации
+
+```py
+
+a, b = iterate(a, b, x, y, 4)
+prediction = model(a, b, x)
+loss = loss_function(a, b, x, y)
+print(a, b, loss)
+plt.scatter(x, y)
+plt.plot(x, prediction)
+
+```
+![image](https://user-images.githubusercontent.com/102403656/191747402-61263d18-80d1-4b73-a3f1-21ece8b38edb.png)
+
+5. Пятая итерация показывает значение параметра, значение потерь и эффект визуализации после итерации
+
+```py
+
+a, b = iterate(a, b, x, y, 5)
+prediction = model(a, b, x)
+loss = loss_function(a, b, x, y)
+print(a, b, loss)
+plt.scatter(x, y)
+plt.plot(x, prediction)
+
+```
+![image](https://user-images.githubusercontent.com/102403656/191747792-47f49902-660c-499f-a0fc-c9994e0d71a9.png)
+
+6. 10000-я итерация, показывающая значения параметров, потери и визуализацию после итерации
+
+```py
+
+a, b = iterate(a, b, x, y, 10000)
+prediction = model(a, b, x)
+loss = loss_function(a, b, x, y)
+print(a, b, loss)
+plt.scatter(x, y)
+plt.plot(x, prediction)
+
+```
+![image](https://user-images.githubusercontent.com/102403656/191748095-c0f01d87-c24d-46dc-b952-daa9fbc4f9b5.png)
+
+
 
 ## Задание 3
 ### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
