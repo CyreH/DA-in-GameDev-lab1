@@ -99,6 +99,28 @@ def iterate(a, b, x, y, times):
     return a, b
     
 ```
+- Начать итерацию
+1. Инициализация и модель итеративной оптимизации
+
+```py
+
+a = np.random.rand(1)
+print(a)
+b = np.random.rand(1)
+print(b)
+Lr = 0.000001
+
+a, b = iterate(a, b, x, y, 1)
+prediction = model(a, b, x)
+loss = loss_function(a, b, x, y)
+print(a, b, loss)
+plt.scatter(x, y)
+plt.plot(x, prediction)
+
+```
+![image](https://user-images.githubusercontent.com/102403656/191743691-63d2a8ef-00b1-4799-8496-273e6f6f50de.png)
+
+2. dsd
 
 
 ## Задание 3
