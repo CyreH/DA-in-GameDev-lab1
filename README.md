@@ -69,6 +69,36 @@ plt.scatter(x,y)
 
 ```
 ![image](https://user-images.githubusercontent.com/102403656/191739931-8e749766-4a62-4d46-a6f8-97ffa67352b5.png)
+- Определить связанные функции. Функция model: определяет модель линейной регрессии(wx+b). Функция loss_function: функция потерь среднеквадратичной ошибки. Функция optimize: метод градиентного спуска для нахождения частных производных w и b. Функция iterate: итерирует фунцию.
+
+```py
+
+def model(a, b, x):
+    return a * x + b
+
+
+def loss_function(a, b, x, y):
+    num = len(x)
+    prediction = model(a, b, x)
+    return (0.5 / num) * (np.square(prediction - y)).sum()
+
+
+def optimize(a, b, x, y):
+    num = len(x)
+    prediction = model(a, b, x)
+    da = (1.0 / num) * ((prediction - y) * x).sum()
+    db = (1.0 / num) * ((prediction - y)).sum()
+    a = a - Lr * da
+    b = b - Lr * db
+    return a, b
+
+
+def iterate(a, b, x, y, times):
+    for i in range(times):
+        a, b = optimize(a, b, x, y)
+    return a, b
+    
+```
 
 
 ## Задание 3
