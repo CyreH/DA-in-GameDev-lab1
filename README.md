@@ -118,7 +118,7 @@ plt.scatter(x, y)
 plt.plot(x, prediction)
 
 ```
-![image](https://user-images.githubusercontent.com/102403656/191743691-63d2a8ef-00b1-4799-8496-273e6f6f50de.png)
+![image](https://user-images.githubusercontent.com/102403656/191745965-fd21bd14-488e-46be-8589-bbb00f60da5d.png)
 
 2. На второй итерации отображаются значения параметров, значения потерь и эффекты визуальзации после итерации
 
