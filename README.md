@@ -87,7 +87,7 @@ def optimize(a, b, x, y):
     num = len(x)
     prediction = model(a, b, x)
     da = (1.0 / num) * ((prediction - y) * x).sum()
-    db = (1.0 / num) * ((prediction - y)).sum()
+    db = (1.0 / num) * ((prediction - y).sum())
     a = a - Lr * da
     b = b - Lr * db
     return a, b
@@ -120,7 +120,7 @@ plt.plot(x, prediction)
 ```
 ![image](https://user-images.githubusercontent.com/102403656/191743691-63d2a8ef-00b1-4799-8496-273e6f6f50de.png)
 
-2. dsd
+2. На второй итерации отображаются значения параметров, значения потерь и эффекты визуальзации после итерации
 
 
 ## Задание 3
