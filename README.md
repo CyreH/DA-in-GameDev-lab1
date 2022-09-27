@@ -194,31 +194,11 @@ plt.plot(x, prediction)
 
 ## Задание 3
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Какова роль параметра Lr?
+- При увеличении количества итераций loss становится всё меньше
+![image](https://user-images.githubusercontent.com/102403656/192586837-0864555b-d680-4d40-aae1-6bed436e5d01.png)
+![image](https://user-images.githubusercontent.com/102403656/192586911-4fa5e93f-df30-46b4-a787-f40972dc7df5.png)
+![image](https://user-images.githubusercontent.com/102403656/192587162-6a5b07b5-44a7-48a4-959c-e77364faf33c.png)
 
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
-
-```py
-
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
-
-```
 
 ## Выводы
 
