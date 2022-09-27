@@ -199,7 +199,9 @@ plt.plot(x, prediction)
 ![image](https://user-images.githubusercontent.com/102403656/192587403-22e049a0-2eab-45e6-8c40-dc99326cdcf6.png)
 ![image](https://user-images.githubusercontent.com/102403656/192587457-3f217e7e-6aad-4b9d-91c9-5c784a12e1da.png)
 ![image](https://user-images.githubusercontent.com/102403656/192587515-e4c67991-8d08-47ce-9edc-574754f30736.png)
-//изменим значение x,y
+
+#изменим значение x,y
+
 ![image](https://user-images.githubusercontent.com/102403656/192588676-960a5372-25fe-4d18-b314-6d9340d078b0.png)
 ![image](https://user-images.githubusercontent.com/102403656/192589383-d4d1bf5c-cbc4-4169-aa45-d0e9a7dc2ffa.png)
 ![image](https://user-images.githubusercontent.com/102403656/192589446-8a382e5a-70c2-4994-9bd6-2cd8a3b9ea13.png)
