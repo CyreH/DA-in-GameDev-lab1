@@ -196,9 +196,10 @@ plt.plot(x, prediction)
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Какова роль параметра Lr?
 - При увеличении количества итераций loss становится всё меньше
 
-![image](https://user-images.githubusercontent.com/102403656/192586837-0864555b-d680-4d40-aae1-6bed436e5d01.png)
-![image](https://user-images.githubusercontent.com/102403656/192586911-4fa5e93f-df30-46b4-a787-f40972dc7df5.png)
-![image](https://user-images.githubusercontent.com/102403656/192587162-6a5b07b5-44a7-48a4-959c-e77364faf33c.png)
+![image](https://user-images.githubusercontent.com/102403656/192587403-22e049a0-2eab-45e6-8c40-dc99326cdcf6.png)
+![image](https://user-images.githubusercontent.com/102403656/192587457-3f217e7e-6aad-4b9d-91c9-5c784a12e1da.png)
+![image](https://user-images.githubusercontent.com/102403656/192587515-e4c67991-8d08-47ce-9edc-574754f30736.png)
+
 
 
 ## Выводы
