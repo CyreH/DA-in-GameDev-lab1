@@ -207,7 +207,13 @@ plt.plot(x, prediction)
 ![image](https://user-images.githubusercontent.com/102403656/192589446-8a382e5a-70c2-4994-9bd6-2cd8a3b9ea13.png)
 ![image](https://user-images.githubusercontent.com/102403656/192589915-b935e6af-65d4-4e4d-8bbb-ea21498a7dc6.png)
 
-2. 
+2. Чем больше значение Lr, тем больше становятся значения x, y, так и a, b. Так же появилась вероятность того, что регрессия становится отрицательной
+
+![image](https://user-images.githubusercontent.com/102403656/192594484-5a8ebf01-289d-46db-b3f7-33d94972b5c8.png)
+![image](https://user-images.githubusercontent.com/102403656/192595153-cd29aeed-48e7-46e9-bcaf-939e8842f70b.png)
+![image](https://user-images.githubusercontent.com/102403656/192595176-ef541bd6-9cd1-486c-ab3c-22a0093b13fa.png)
+
+
 
 
 
